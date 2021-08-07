@@ -1,0 +1,50 @@
+.message__sender__container {
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+}
+
+.message__input {
+    border: none;
+    margin-left: 15px;
+    outline: none;
+}
+
+.message__input::placeholder {
+    color: lightgray;
+}
+
+.message__actions_btn {
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #2A8BF2, #7CB8F7);
+}
+
+.message__actions__item, .send__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #2A8BF2, #7CB8F7);
+    box-shadow: 0px 15px 18px -13px #999;
+}
+
+
+.message__actions__dropdown {
+    padding-right: 20px;
+    border: none;
+    background-color: transparent !important;
+}
+
+.send__buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

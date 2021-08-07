@@ -1,0 +1,12 @@
+.recieved__message {
+    max-width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-image: linear-gradient(to right, #60A9F6, #2A8BF2);
+    color: white;
+}
+
+.recieved__message > p {
+    font-size: .8em;
+}
